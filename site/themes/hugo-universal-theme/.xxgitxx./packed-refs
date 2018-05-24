@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+088eec32622de05bcc714ba37ca3615cf73adc85 refs/remotes/origin/georgewl-patch-favicons
+1968d9430a4b38d193d883cc532fd343f8d8e136 refs/remotes/origin/master
+7b56ec8d3ac5180f76fa79b6f019f44bf58cda9d refs/remotes/origin/nav-active-class
