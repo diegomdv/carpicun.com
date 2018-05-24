@@ -1,4 +1,4 @@
-baseurl = "https://www.carpicun.com/"
+baseurl = "/"
 title = "CarpiCUN"
 theme = "hugo-universal-theme"
 themesDir = "themes"
