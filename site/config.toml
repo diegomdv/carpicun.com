@@ -1,4 +1,4 @@
-baseurl = "http://localhost:3000/"
+baseurl = "https://www.carpicun.com/"
 title = "CarpiCUN"
 theme = "hugo-universal-theme"
 themesDir = "themes"
