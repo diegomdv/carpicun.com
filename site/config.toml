@@ -2,12 +2,14 @@ baseurl = "http://localhost:3000/"
 title = "CarpiCUN"
 theme = "hugo-universal-theme"
 themesDir = "themes"
-languageCode = "en-us"
-languageLang = "en"
+languageCode = "es-mx"
+languageLang = "es"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "es"
+
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+#disqusShortname = "devcows"
+
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -24,33 +26,33 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "Home"
+    name = "Inicio"
     url  = "/"
     weight = 1
 
-[[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 2
+#[[menu.main]]
+#    name = "Blog"
+#    url  = "/blog/"
+#    weight = 2
+
+#[[menu.main]]
+#    name = "FAQ"
+#    identifier = "faq"
+#    url  = "/faq/"
+#    weight = 3
 
 [[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
-    weight = 3
-
-[[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
+    name = "Contacto"
+    url  = "/contacto/"
     weight = 4
 
 # Top bar social links menu
 
-[[menu.topbar]]
-    weight = 1
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fa fa-2x fa-github'></i>"
+ #[[menu.topbar]]
+ #   weight = 1
+ #   name = "GitHub"
+ #   url = "https://github.com/devcows/hugo-universal-theme"
+ #   pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
@@ -71,16 +73,20 @@ paginate = 10
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
+
+	# Enable Google Tag Manager
+	googleTagManager = "GTM-5SCV28X"
+	
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    author = "CarpiCUN"
+    defaultKeywords = ["carpicun", "carpinteria", "cancun", "cun", "carpintero"]
+    defaultDescription = "Carpintería CUN - CarpiCUN"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "violet"
+    style = "carpicun"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -95,10 +101,10 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "contacto@carpicun.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Carpintería de calidad en Cancún</p>"
+    copyright = "Copyright (c) 2018, CarpiCUN; todos los derechos reservados."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
