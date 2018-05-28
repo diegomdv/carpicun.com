@@ -69,7 +69,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:contacto@carpicun.com"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
@@ -123,12 +123,13 @@ paginate = 10
     longitude = "-77.028333"
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+#    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/portfolio/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Contáctanos al +52 (998) 111-2222 o al email contacto@carpicun.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -136,9 +137,9 @@ paginate = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
-    search = true
+    categories = false
+    tags = false
+    search = false
 
 [params.carousel]
     enable = true
@@ -157,23 +158,23 @@ paginate = 10
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "Testimoniales"
+    subtitle = "Ayudamos a muchos clientes con trabajos de carpintería en Cancún, Playa del Carmen, Tulúm, Mérida, Ciudad de México, Monterrey, Guadalajara y varias otras ciudades. Nos da orgullo haberlo hecho con calidad y a tiempo para dejarlos satisfechos. Aquí las historias de algunos clientes de CarpiCUN:"
 
 [params.see_more]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = "¿Quieres saber como CarpiCUN puede ayudarte?"
+    subtitle = "CarpiCUN tiene como objetivo trabajar seriamente, entregar a tiempo y con excelente calidad en carpintería en Cancún."
+    link_url = "/contacto"
+    link_text = "Pide una cotización"
 
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
+    title = "Nuestros Clientes"
     subtitle = ""
 
 [params.recent_posts]

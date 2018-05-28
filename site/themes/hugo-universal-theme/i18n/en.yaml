@@ -69,3 +69,9 @@
 
 - id: publishedOn
   translation: "on"
+  
+- id: viewMore
+  translation: "View more"
+  
+- id: continue
+  translation: "Continue"
